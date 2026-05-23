@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+}
+
+.nav-kiri {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-kanan {
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Home {
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    padding: 40px 10%;
+    box-sizing: border-box;
+    gap: 40px;
+}
+
+.Home-kiri {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Home-kiri p {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.Home-kanan {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+a {
+    color: rgb(251, 113, 136);
+    text-decoration: none;
+}
+
+.Home a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 252, 253);
+    background-color: rgb(94, 80, 242);
+    padding: 10px 20px;
+    width: fit-content;
+    align-self: flex-start;
+    border-radius: 10px;
+
+}
+
+.img {
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 20px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: pink;
+}
+
+.About div a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(94, 80, 242);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
